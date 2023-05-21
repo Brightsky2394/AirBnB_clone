@@ -15,6 +15,7 @@ button {
     position: absolute;
     font-size: 18px;
     height: 48px;
+    width: 20%;
     top: 15%;
     right: 20px;
 }
