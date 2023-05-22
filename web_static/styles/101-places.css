@@ -54,6 +54,10 @@ article h2 {
     justify-content: center;
 }
 
+.information p{
+    margin-top: 0.2rem;
+}
+
 .max_guest,
 .number_rooms,
 .number_bathrooms {
@@ -82,9 +86,12 @@ article h2 {
 }
 
 .places .amenities h2 {
-    padding: 5% 0;
-    padding-bottom: 2%;
-    border-bottom: 1px solid #DDDDDD;
+        display: flex;
+        align-items: start;
+        padding: 5% 0;
+        padding-bottom: 2%;
+        border-bottom: 1px solid #DDDDDD;
+        font-size: 16px;
 }
 
 .places .amenities ul {
